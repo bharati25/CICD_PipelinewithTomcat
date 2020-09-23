@@ -10,7 +10,7 @@ steps {
 sh 'echo hi'
 
 }
-
+}
 
 stage ('deploy to dev') {
              steps {
@@ -20,6 +20,7 @@ stage ('deploy to dev') {
 
 }
 }
+
 }
 }
-}
+
